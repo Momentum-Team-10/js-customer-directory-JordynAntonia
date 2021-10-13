@@ -14,4 +14,14 @@ for (let customer of customers) {
         "uk-width-medium"
 
     );
+
+    customerCard.innerHTML = `
+<img src=${customer.image}/>
+<p> class="uk-card-name">${customer.name}</p>
+<p>${customer.email}</p>
+<p>${customer.email}
+<p>${customer.address}
+<p>${customer.DOB}
+<p${customer.registration}<p>
+
 }
